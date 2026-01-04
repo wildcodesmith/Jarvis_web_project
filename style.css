@@ -644,9 +644,143 @@ body {
 
 .herosecthree .bottombtn button:hover {
     /* color:greenyellow;
-    border-color:greenyellow;
+    border-color:greenyellherosecfourow;
      */
     background-color: greenyellow;
     color: black;
 
 }
+.herosecfour{
+    background-color: white;
+    color:black;
+    font-family: var(--urban);
+    padding-bottom: 20px;
+    
+}
+
+.herosecfour>*:first-child{
+    margin-top: 80px;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+
+    
+
+
+}
+
+.herosecfour .boxcontainer{
+
+    display:flex;
+    margin-top: 60px;
+    justify-content: center;
+    gap:25px;
+    height:600px;
+     
+
+}
+.herosecfour .boxcontainer .box{
+    width:400px;
+    background-color: white;
+    border: 2px solid rgb(243,243,243) ;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 45px;
+    margin-bottom: 70px;
+ 
+
+}
+
+.herosecfour .boxcontainer .boxone{
+    background-color: rgb(243,243,243);
+
+
+}
+
+.herosecfour .boxcontainer .boxone>*:first-child{
+    font-size: 50px;
+    font-weight: 600;
+
+
+    
+}
+
+.herosecfourstar{
+    color: rgb(250, 172, 4);
+
+}
+.herosecfour .boxcontainer .boxone div:nth-child(3){
+    font-size: 16px;
+    color:rgb(107, 106, 106);
+    font-weight: 400;
+    padding-top: 5px;
+    padding-bottom: 40px;
+
+}
+
+.herosecfour .boxcontainer .boxone div:nth-child(4){
+    font-size:24px;
+    font-weight:500;
+    color:black;
+    text-align: center;
+    padding-bottom: 40px;
+    
+
+}
+
+.herosecfour .boxcontainer .boxone div:nth-child(5){
+
+    font-size: 40px;
+    font-weight: 800;
+    font-family:var(--sansarif);
+        /* color: rgb(57, 103, 143); */
+    color: black;
+    padding-bottom:80px;
+
+
+ 
+}
+
+.herosecfour .boxcontainer .boxtwo .number , .herosecfour .boxcontainer .boxthree .number{
+     font-size: 30px;
+    color:black;
+    font-weight:550;
+
+}
+
+.herosecfour .boxcontainer .boxtwo .reviewContent , .herosecfour .boxcontainer .boxthree  .reviewContent{
+
+    padding:28px 25px 30px;
+    font-size: 20px;
+    color:  rgb(116, 116, 116);
+    font-weight:350;
+    letter-spacing: 2px;
+}
+
+.herosecfour .boxcontainer .boxtwo  .reviewBy , .herosecfour .boxcontainer .boxthree  .reviewBy{
+    font-size: 21px;
+    color:black;
+    font-weight: 600;
+    margin-bottom: 10px;
+
+}
+
+.herosecfour .boxcontainer .boxtwo  .reviewByBox , .herosecfour .boxcontainer .boxthree  .reviewByBox {
+    display: flex;
+    background-color: rgb(243,243,243);
+    margin-top: 40px;
+    width:360px;
+    border-radius: 20px;
+    padding: 20px;
+    
+    
+}
+.herosecfour .reviewer_image{
+    width:60px;
+    border-radius: 100%;
+    margin-right: 20px;
+    
+}
+ 
