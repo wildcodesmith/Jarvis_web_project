@@ -1,3 +1,10 @@
+
+
+*::selection{
+   
+
+     color: rgb(113, 169, 28);
+}
 :root {
     --urban: "Urbanist", sans-serif;
     --tiktok: "TikTok Sans", sans-serif;
